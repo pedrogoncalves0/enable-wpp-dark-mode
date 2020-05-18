@@ -1,0 +1,11 @@
+{
+	"name": "enable-wpp-dark-mode",
+	"version": "0.0.1",
+	"description": "Enables Web WhatsApp dark mode features",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [ "webNavigation", "*://*/*" ],
+	"manifest_version": 2
+}
